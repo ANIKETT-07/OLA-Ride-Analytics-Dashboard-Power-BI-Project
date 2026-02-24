@@ -180,7 +180,7 @@ Ensures service quality monitoring.
 
 ### Overall Dashboard
 
-![Overall Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Overall.png))
+![Overall Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Overall.png)
 
 ### Vehicle Analysis
 ![Vehicle Analysis](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Vehicle%20Type.png)
