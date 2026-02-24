@@ -1,32 +1,34 @@
-# 🚖 OLA Ride Analytics Dashboard | Power BI Project
+# 🚖 OLA Ride Analytics: Operational Performance Dashboard | Power BI
 
-An interactive and dynamic Power BI dashboard built to analyze Ola ride data — focusing on bookings, revenue, cancellations, vehicle performance, and customer satisfaction metrics.
-
----
-
-## 📌 Short Description
-
-The OLA Ride Analytics Dashboard is a comprehensive Power BI report designed to monitor operational performance for July 2024. It helps stakeholders track booking trends, revenue distribution, cancellation behavior, payment preferences, and service ratings to support data-driven decision-making.
+A dynamic and interactive Power BI dashboard built to analyze Ola ride booking data — focusing on ride demand trends, revenue distribution, vehicle utilization, cancellation patterns, and service quality metrics.
 
 ---
 
-## 🛠 Tech Stack
+## 2️⃣ Short Description / Purpose
+
+The OLA Ride Analytics Dashboard is a visually structured and analytical Power BI report designed to explore ride-hailing operational data for July 2024.
+
+The dashboard highlights booking performance, payment behavior, ride distance trends, cancellation reasons, and customer/driver ratings. This tool is intended for business analysts, operations managers, mobility strategists, and data-driven decision-makers who want to monitor and optimize ride-hailing platform performance.
+
+---
+
+## 3️⃣ Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
-- 📊 **Power BI Desktop** – Main data visualization platform  
-- 📂 **Power Query** – Data cleaning and transformation  
-- 🧠 **DAX (Data Analysis Expressions)** – Calculated KPIs and measures  
-- 🔗 **Data Modeling** – Relationships between bookings, vehicles, payments, and ratings tables  
-- 📁 **File Format** – `.pbix` for development  
+- 📊 **Power BI Desktop** – Main data visualization platform used for report creation  
+- 📂 **Power Query** – Data transformation and cleaning layer  
+- 🧠 **DAX (Data Analysis Expressions)** – Used for calculated measures, KPIs, and dynamic visuals  
+- 🔗 **Data Modeling** – Relationships established among bookings, vehicles, payments, and ratings tables  
+- 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews  
 
 ---
 
-## 📂 Data Source
+## 4️⃣ Data Source
 
 **Source:** Ride booking dataset (July 2024 operational data)
 
-The dataset includes:
+The dataset contains ride-level transactional records including:
 
 - Booking ID  
 - Booking Date  
@@ -36,161 +38,169 @@ The dataset includes:
 - Booking Value  
 - Ride Distance  
 - Cancellation Reason  
-- Customer Rating  
 - Driver Rating  
+- Customer Rating  
 
-**Time Period Covered:** 1 July 2024 – 30 July 2024
+ 
+
+This project was completed as part of a guided analytics program from **TopVarsity.in** and enhanced for portfolio presentation.
 
 ---
 
-# 📊 Features / Highlights
+# 5️⃣ Features / Highlights
 
 ---
 
 ## 🔹 Business Problem
 
-Ride-hailing platforms generate thousands of daily transactions.  
-However, stakeholders often struggle to answer:
+Ride-hailing companies generate massive amounts of transactional data daily.
 
-- What is the ride demand trend?
-- What percentage of rides are successful?
-- Why are customers cancelling?
-- Which vehicle types generate the most revenue?
-- Which payment methods dominate?
-- Are customer and driver ratings stable?
+However, stakeholders often lack an intuitive way to quickly answer operational questions such as:
 
-Raw data alone does not provide actionable insights.
+- How is ride demand changing over time?  
+- What percentage of bookings are successfully completed?  
+- Which vehicle types contribute the most ride distance?  
+- Which payment methods drive the highest revenue?  
+- What are the key reasons for cancellations?  
+- Are driver and customer satisfaction levels stable?  
+
+Raw booking tables do not provide clear, actionable insights without structured visualization.
 
 ---
 
 ## 🎯 Goal of the Dashboard
 
-To deliver an interactive analytics solution that:
+To deliver an interactive visual analytics tool that:
 
-- Tracks booking and revenue performance  
-- Identifies cancellation patterns  
-- Compares vehicle category efficiency  
-- Monitors payment behavior  
-- Evaluates customer and driver satisfaction  
-- Supports operational optimization  
+- Enables operational performance monitoring  
+- Supports revenue and demand analysis  
+- Identifies cancellation trends and service gaps  
+- Highlights top-performing vehicle categories  
+- Tracks customer and driver satisfaction  
+- Supports strategic and operational decision-making  
 
 ---
 
-## 📈 Key Dashboard Insights
+# 📊 Walkthrough of Key Visuals
 
-### 🔸 Overall KPIs
+---
 
+## 🔸 Overall View
+
+### Key KPIs
 - **Total Bookings:** 20,407  
 - **Total Booking Value:** 7M  
-- Dynamic date slicer for time filtering  
+- Dynamic Date Slicer  
 
----
+Provides a high-level operational snapshot.
 
-### 🔸 Booking Status Breakdown
+### Ride Volume Over Time (Line Chart)
+Shows daily booking trends across July 2024 to identify peak demand and fluctuations.
 
-- 62% Successful Rides  
+### Booking Status Breakdown
+Displays distribution of:
+- Successful Rides (62%)  
 - Cancelled by Driver  
 - Cancelled by Customer  
 - Driver Not Found  
 
-Provides a clear operational efficiency overview.
+Helps evaluate platform efficiency.
 
 ---
 
-### 🔸 Ride Volume Over Time
+## 🔸 Vehicle Type View
 
-Line chart showing daily ride demand trends across July 2024.
+### Top 5 Vehicle Types by Ride Distance
+Ranks vehicle categories based on total ride distance.
 
-Helps identify:
-- Peak demand days  
-- Demand fluctuations  
-- Operational load patterns  
-
----
-
-### 🔸 Vehicle Type Analysis
-
-Vehicle Categories:
-- Prime Sedan  
-- Prime SUV  
-- Prime Plus  
-- Mini  
-- Auto  
-- Bike  
-- E-Bike  
-
-Metrics Compared:
-- Total Booking Value  
-- Successful Booking Value  
-- Average Distance Travelled  
-- Total Distance Covered  
-
-Enables fleet performance comparison.
+Helps in:
+- Fleet performance comparison  
+- Resource allocation planning  
+- Identifying high-utilization vehicle segments  
 
 ---
 
-### 🔸 Revenue by Payment Methods
+## 🔸 Revenue View
 
-Payment Types:
+### Revenue by Payment Method (Bar Chart)
+Breakdown of revenue generated from:
 - Cash  
 - UPI  
 - Credit Card  
 - Debit Card  
 
-Helps understand customer payment preferences and digital adoption trends.
+Highlights customer payment behavior trends.
+
+### Top 5 Customers by Total Booking Value
+Identifies high-value customers contributing most to revenue.
+
+### Ride Distance Distribution Per Day
+Analyzes operational load and travel demand patterns.
 
 ---
 
-### 🔸 Cancellation Analysis
+## 🔸 Cancellation View
 
-**Total Cancelled Rides:** 2,081  
-
-Major Reasons:
-- Driver not moving towards pickup  
-- Driver asked to cancel  
+### Cancelled Rides Reasons (Customer)
+Includes reasons such as:
 - Change of plans  
-- AC not working  
 - Wrong address  
+- AC not working  
 
-Supports operational improvement decisions.
+### Cancelled Rides Reasons (Driver)
+Includes:
+- Driver not moving toward pickup  
+- Driver asked to cancel  
 
----
+**Total Cancelled Rides:** 2,081
 
-### 🔸 Ratings Analysis
-
-- Average Driver Rating ≈ 4.0  
-- Average Customer Rating ≈ 4.0  
-- Ratings compared across vehicle categories  
-
-Ensures service quality monitoring.
+Helps identify operational inefficiencies and service gaps.
 
 ---
 
-# 💡 Business Impact
+## 🔸 Ratings View
 
-- 🚀 Improve driver allocation and response time  
-- 💰 Increase revenue by optimizing high-performing vehicle categories  
-- 📊 Strengthen digital payment strategies  
-- ⭐ Monitor and maintain service quality  
-- 🎯 Enhance customer retention strategies  
+### Driver Ratings
+Monitors average driver performance (~4.0).
+
+### Customer Ratings
+Tracks service satisfaction consistency (~4.0).
+
+Ensures quality control and performance benchmarking.
 
 ---
 
-# 🖼 Dashboard Previe
+# 💡 Business Impact & Insights
+
+- 🚀 Operational Optimization – Reduce ride cancellations by identifying root causes and improving driver accountability.  
+- 💰 Revenue Enhancement – Focus on high-performing vehicle categories and preferred payment methods.  
+- 📊 Demand Forecasting – Use ride volume and distance trends for capacity planning.  
+- 🎯 Customer Retention Strategy – Leverage top customer data for loyalty and retention initiatives.  
+- ⭐ Service Quality Monitoring – Continuously monitor rating trends to maintain high service standards.  
+
+---
+
+# 🖼 Dashboard Preview
 
 ### Overall Dashboard
-
-![Overall Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Overall.png)
+![Overall Dashboard](https://raw.githubusercontent.com/ANIKETT-07/Ola-Dashboard/main/Overall.png)
 
 ### Vehicle Analysis
-![Vehicle Analysis](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Vehicle%20Type.png)
+![Vehicle Analysis](https://raw.githubusercontent.com/ANIKETT-07/Ola-Dashboard/main/Vehicle%20Type.png)
 
 ### Revenue Dashboard
-![Revenue Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Revenune.png)
+![Revenue Dashboard](https://raw.githubusercontent.com/ANIKETT-07/Ola-Dashboard/main/Revenune.png)
 
 ### Cancellation Dashboard
-![Cancellation Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Cancellation.png)
+![Cancellation Dashboard](https://raw.githubusercontent.com/ANIKETT-07/Ola-Dashboard/main/Cancellation.png)
 
 ### Ratings Dashboard
-![Ratings Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Rating.png)
+![Ratings Dashboard](https://raw.githubusercontent.com/ANIKETT-07/Ola-Dashboard/main/Rating.png)
+---
 
+---
+
+⭐ If you found this project helpful, consider giving it a star!
+---
+
+⭐ If you found this project helpful, consider giving it a star!
