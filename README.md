@@ -177,7 +177,6 @@ Ensures service quality monitoring.
 ---
 
 # 🖼 Dashboard Previe
-## 🖼 Dashboard Preview
 
 ### Overall Dashboard
 
