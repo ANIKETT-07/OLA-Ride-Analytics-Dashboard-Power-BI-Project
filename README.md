@@ -176,6 +176,22 @@ Ensures service quality monitoring.
 
 ---
 
-# 🖼 Dashboard Preview
+# 🖼 Dashboard Previe
+## 🖼 Dashboard Preview
 
+### Overall Dashboard
+
+![Overall Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Overall.png))
+
+### Vehicle Analysis
+![Vehicle Analysis](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Vehicle%20Type.png)
+
+### Revenue Dashboard
+![Revenue Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Revenune.png)
+
+### Cancellation Dashboard
+![Cancellation Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Cancellation.png)
+
+### Ratings Dashboard
+![Ratings Dashboard](https://github.com/ANIKETT-07/Ola-Dashboard/blob/main/Rating.png)
 
